@@ -5,6 +5,7 @@ Plug 'benekastah/neomake'
 Plug 'scrooloose/nerdtree'
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mileszs/ack.vim'
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
