@@ -1,4 +1,4 @@
-call plug#begin(expand('$HOME/.vim/_deps'))
+" call plug#begin(expand('$HOME/.vim/_deps'))
 
 " Tools
 Plug 'benekastah/neomake'
@@ -6,12 +6,13 @@ Plug 'scrooloose/nerdtree'
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
+Plug 'tpope/vim-commentary'
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
 
 " Markdown
-Plug 'tpope/vim-markdown', { 'for': ['markdown'] }
+" Plug 'tpope/vim-markdown', { 'for': ['markdown'] }
 
 " HTML, javascript, css, scss, less
 Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
