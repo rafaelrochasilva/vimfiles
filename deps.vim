@@ -6,6 +6,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
+Plug 'tpope/vim-commentary'
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
