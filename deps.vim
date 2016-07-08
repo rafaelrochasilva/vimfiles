@@ -8,7 +8,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-commentary'
-Plug 'Shougo/deoplete.nvim'
+Plug 'cohama/lexima.vim'
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
