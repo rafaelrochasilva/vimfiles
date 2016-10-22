@@ -6,5 +6,4 @@ nnoremap <silent> <C-k> :CtrlPBuffer<cr>
 
 nnoremap <silent> <c-l> :nohlsearch<cr><c-l>
 
-nnoremap W w
-
+noremap W w
