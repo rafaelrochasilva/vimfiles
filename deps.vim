@@ -9,6 +9,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-commentary'
 Plug 'cohama/lexima.vim'
+Plug 'rizzatti/dash.vim'
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
