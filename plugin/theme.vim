@@ -7,4 +7,4 @@ set colorcolumn=80
 
 hi! VertSplit guibg=NONE
 
-" highlight LineNr ctermfg=DarkBlue ctermbg=none
+let g:NERDTreeWinPos = "right"
