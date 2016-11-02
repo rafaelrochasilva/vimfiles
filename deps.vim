@@ -5,6 +5,7 @@ call plug#begin(expand('$HOME/.vim/_deps'))
 Plug 'benekastah/neomake'
 Plug 'scrooloose/nerdtree'
 Plug 'chriskempson/base16-vim'
+Plug 'chriskempson/base16-iterm2'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-commentary'
