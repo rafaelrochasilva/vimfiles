@@ -7,10 +7,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'chriskempson/base16-vim'
 Plug 'chriskempson/base16-iterm2'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'mileszs/ack.vim'
-Plug 'tpope/vim-commentary'
-Plug 'cohama/lexima.vim'
-Plug 'rizzatti/dash.vim'
+Plug 'mileszs/ack.vim' " Search into files using ack
+Plug 'tpope/vim-commentary' " Comment code
+Plug 'cohama/lexima.vim' " Auto close parentheses
+Plug 'rizzatti/dash.vim' " Dash
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
