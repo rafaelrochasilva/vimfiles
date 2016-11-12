@@ -20,7 +20,7 @@ set number numberwidth=3
 
 set ignorecase smartcase
 
-set cursorline
+" set cursorline
 
 set switchbuf=useopen,usetab,split
 
