@@ -11,6 +11,7 @@ Plug 'mileszs/ack.vim' " Search into files using ack
 Plug 'tpope/vim-commentary' " Comment code
 Plug 'cohama/lexima.vim' " Auto close parentheses
 Plug 'rizzatti/dash.vim' " Dash
+Plug 'tpope/vim-fugitive'
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
@@ -32,6 +33,9 @@ Plug 'tpope/vim-rails', { 'for': ['ruby'] }
 
 " Elixir
 Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
+
+" Elm
+Plug 'elmcast/elm-vim', { 'for': ['elm'] }
 
 call plug#end()
 
