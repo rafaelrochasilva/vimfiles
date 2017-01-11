@@ -5,7 +5,8 @@ nnoremap Y y$
 " NERDTree mappings
 nnoremap <silent> <C-e> :NERDTreeToggle<cr>
 
-nnoremap <silent> <C-k> :CtrlPBuffer<cr>
+" History
+nnoremap <leader>h :CtrlPBuffer<cr>
 
 nnoremap <silent> <c-l> :nohlsearch<cr><c-l>
 
