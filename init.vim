@@ -56,6 +56,8 @@ set ttimeout
 
 let mapleader=" "
 
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 if !has('nvim')
   let g:data_home=expand("$HOME/.local/share/vim")
 
