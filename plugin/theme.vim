@@ -1,12 +1,14 @@
 syntax enable
 
-" set termguicolors
-if has("gui_running")
-  set background=light
-  colorscheme base16-solarized-light
+" current term: ocean-dark
+if has("nvim")
+  set termguicolors
+else
+  echo "Boring old console"
 endif
 
 set colorcolumn=80
+highlight ColorColumn ctermbg=235 guibg=#3a404e
 
 hi! VertSplit guibg=NONE
 

@@ -58,6 +58,8 @@ let mapleader=" "
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+set path+=**
+
 if !has('nvim')
   let g:data_home=expand("$HOME/.local/share/vim")
 
