@@ -23,7 +23,6 @@ nnoremap <leader>n :vertical resize -5<cr>
 nnoremap <leader>m :vertical resize +5<cr>
 
 " " RSpec.vim mappings
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+map <Leader>t :RunSpec<CR>
+map <Leader>l :RunSpecLine <CR>
+map <Leader>a :RunSpecs<CR>

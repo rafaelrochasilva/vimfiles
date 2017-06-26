@@ -26,9 +26,9 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html', 'eruby'] }
 
 " Ruby
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
-Plug 'thoughtbot/vim-rspec'
 Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
 Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
+Plug 'itmammoth/run-rspec.vim', { 'for': ['ruby'] }
 
 " Rails
 Plug 'tpope/vim-rails', { 'for': ['ruby'] }

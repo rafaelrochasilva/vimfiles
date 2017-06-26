@@ -90,3 +90,5 @@ if !has('nvim')
   set viminfo^=!
   set wildmenu
 end
+
+let g:rspec_command = '!bundle exec rspec --color --drb {spec}'

@@ -10,6 +10,9 @@ endif
 set colorcolumn=80
 highlight ColorColumn ctermbg=235 guibg=#3a404e
 
+syntax on
+colorscheme absolute
+
 hi! VertSplit guibg=NONE
 
 let g:NERDTreeWinPos = "right"
