@@ -25,4 +25,6 @@ nnoremap <leader>m :vertical resize +5<cr>
 " " RSpec.vim mappings
 map <Leader>t :RunSpec<CR>
 map <Leader>l :RunSpecLine <CR>
-map <Leader>a :RunSpecs<CR>
+
+" Ack mappings
+map <Leader>a :Ack!<Space>
