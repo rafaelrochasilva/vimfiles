@@ -14,6 +14,7 @@ Plug 'rizzatti/dash.vim' " Dash
 Plug 'tpope/vim-fugitive'
 Plug 'godlygeek/tabular'
 
+
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
 
@@ -26,7 +27,6 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html', 'eruby'] }
 
 " Ruby
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
-Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
 Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 Plug 'itmammoth/run-rspec.vim', { 'for': ['ruby'] }
 
