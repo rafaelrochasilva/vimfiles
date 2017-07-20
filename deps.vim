@@ -13,7 +13,7 @@ Plug 'cohama/lexima.vim' " Auto close parentheses
 Plug 'rizzatti/dash.vim' " Dash
 Plug 'tpope/vim-fugitive'
 Plug 'godlygeek/tabular'
-
+Plug 'airblade/vim-gitgutter' " Git changes
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
