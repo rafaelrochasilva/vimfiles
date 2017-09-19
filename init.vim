@@ -20,7 +20,7 @@ set number numberwidth=3
 
 set ignorecase smartcase
 
-" set cursorline
+set cursorline
 
 set switchbuf=useopen,usetab,split
 
@@ -60,6 +60,27 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 set path+=**
 
+" Tab completion
+" will insert tab at beginning of line,
+" will use completion if not at beginning
+set wildmode=list:longest,list:full
+function! InsertTabWrapper()
+  let col = col('.') - 1
+  if !col || getline('.')[col - 1] !~ '\k'
+    return "\<tab>"
+  else
+    return "\<c-p>"
+  endif
+endfunction
+inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
+inoremap <S-Tab> <c-n>
+
+" Switch between the last two files
+nnoremap <Leader><Leader> <c-^>
+
+" Run rspec
+let g:run_rspec_bin = 'bundle exec rspec'
+
 if !has('nvim')
   let g:data_home=expand("$HOME/.local/share/vim")
 
@@ -91,4 +112,3 @@ if !has('nvim')
   set wildmenu
 end
 
-let g:rspec_command = '!bundle exec rspec --color --drb {spec}'

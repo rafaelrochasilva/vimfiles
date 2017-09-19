@@ -23,11 +23,10 @@ nnoremap <leader>n :vertical resize -5<cr>
 nnoremap <leader>m :vertical resize +5<cr>
 
 " RSpec.vim mappings
-nnoremap <leader>r :RunSpec<CR>
-nnoremap <leader>l :RunSpecLine<CR>
-nnoremap <leader>e :RunSpecLastRun<CR>
-nnoremap <leader>cr :RunSpecCloseResult<CR>
-let g:run_rspec_bin = 'bundle exec rspec'
+nnoremap <leader>r :RunSpec<CR>G
+nnoremap <leader>l :RunSpecLine<CR>G
+nnoremap <leader>e :RunSpecLastRun<CR>G
+nnoremap <leader>cr :RunSpecCloseResult<CR>G
 
 " Ack mappings
 map <leader>a :Ack!<Space>
