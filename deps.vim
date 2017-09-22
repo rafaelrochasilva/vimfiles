@@ -25,8 +25,7 @@ Plug 'tpope/vim-markdown', { 'for': ['markdown'] }
 
 " Ruby
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
-" Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
-Plug 'itmammoth/run-rspec.vim', { 'for': ['ruby'] }
+Plug 'janko-m/vim-test'
 
 " Rails
 Plug 'tpope/vim-rails', { 'for': ['ruby'] }

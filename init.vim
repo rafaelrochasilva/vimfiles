@@ -79,7 +79,7 @@ inoremap <S-Tab> <c-n>
 nnoremap <Leader><Leader> <c-^>
 
 " Run rspec
-let g:run_rspec_bin = 'bundle exec rspec'
+let test#strategy = 'neovim'
 
 if !has('nvim')
   let g:data_home=expand("$HOME/.local/share/vim")

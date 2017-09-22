@@ -22,11 +22,12 @@ nnoremap <leader>n :vertical resize -5<cr>
 " Vertical window resize left
 nnoremap <leader>m :vertical resize +5<cr>
 
-" RSpec.vim mappings
-nnoremap <leader>r :RunSpec<CR>G
-nnoremap <leader>l :RunSpecLine<CR>G
-nnoremap <leader>e :RunSpecLastRun<CR>G
-nnoremap <leader>cr :RunSpecCloseResult<CR>G
+" vim.test mappings
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
 
 " Ack mappings
 map <leader>a :Ack!<Space>
