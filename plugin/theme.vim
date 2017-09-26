@@ -1,17 +1,8 @@
 syntax enable
-
-" current term: ocean-dark
-if has("nvim")
-  set termguicolors
-else
-  echo "Boring old console"
-endif
+set background=light
+colorscheme solarized
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=235 guibg=#3a404e
-
-syntax on
-colorscheme absolute
 
 hi! VertSplit guibg=NONE
 
