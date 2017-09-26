@@ -16,6 +16,7 @@ colorscheme absolute
 hi! VertSplit guibg=NONE
 
 let g:NERDTreeWinPos = "right"
+let NERDTreeShowHidden=1
 
 "Set different cursors
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
