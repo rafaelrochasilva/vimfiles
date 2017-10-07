@@ -1,7 +1,7 @@
 "Change theme depending on the time of day
 let hr = (strftime('%H'))
 
-if hr >= 19
+if hr >= 18
   colorscheme solarized8_dark
 elseif hr >= 7
   colorscheme solarized8_light
