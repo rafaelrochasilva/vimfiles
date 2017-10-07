@@ -12,6 +12,7 @@ Plug 'cohama/lexima.vim' " Auto close parentheses
 Plug 'rizzatti/dash.vim' " Dash
 Plug 'godlygeek/tabular'
 Plug 'airblade/vim-gitgutter' " Git changes
+Plug 'lifepillar/vim-solarized8' " Solarized8 theme
 
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
