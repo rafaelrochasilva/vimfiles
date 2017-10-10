@@ -1,13 +1,4 @@
-"Change theme depending on the time of day
-let hr = (strftime('%H'))
-
-if hr >= 18
-  colorscheme solarized8_dark
-elseif hr >= 7
-  colorscheme solarized8_light
-elseif hr >= 0
-  colorscheme solarized8_dark
-endif
+colorscheme solarized8_dark
 
 set colorcolumn=80
 
