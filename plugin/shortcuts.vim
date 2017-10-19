@@ -31,3 +31,6 @@ nmap <silent> <leader>g :TestVisit<CR>
 
 " Ack mappings
 map <leader>a :Ack!<Space>
+
+" The built-in mapping for exiting terminal insert mode
+map <C-o> <C-\><C-n>
