@@ -14,6 +14,10 @@ Plug 'godlygeek/tabular'
 Plug 'airblade/vim-gitgutter' " Git changes
 Plug 'lifepillar/vim-solarized8' " Solarized8 theme
 
+" Test
+Plug 'janko-m/vim-test'
+Plug 'tpope/vim-dispatch'
+
 " Tomdoc
 Plug 'wellbredgrapefruit/tomdoc.vim'
 
@@ -21,21 +25,20 @@ Plug 'wellbredgrapefruit/tomdoc.vim'
 Plug 'tpope/vim-markdown', { 'for': ['markdown'] }
 
 " HTML, javascript, css, scss, less
-" Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
-" Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html', 'eruby'] }
+Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html', 'eruby'] }
 
 " Ruby
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
-Plug 'janko-m/vim-test'
 
 " Rails
 Plug 'tpope/vim-rails', { 'for': ['ruby'] }
 
 " Elixir
-" Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
+Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
 
 " Elm
-" Plug 'elmcast/elm-vim', { 'for': ['elm'] }
+Plug 'elmcast/elm-vim', { 'for': ['elm'] }
 
 call plug#end()
 
