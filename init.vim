@@ -60,6 +60,8 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 set path+=**
 
+set mouse=a
+
 " Tab completion
 " will insert tab at beginning of line,
 " will use completion if not at beginning

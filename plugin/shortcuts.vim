@@ -25,7 +25,7 @@ nnoremap <leader>m :vertical resize +5<cr>
 " vim.test mappings
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
-nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>ta :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
@@ -33,4 +33,4 @@ nmap <silent> <leader>g :TestVisit<CR>
 map <leader>a :Ack!<Space>
 
 " The built-in mapping for exiting terminal insert mode
-map <C-o> <C-\><C-n>
+nmap <leader>o <C-\><C-n>
