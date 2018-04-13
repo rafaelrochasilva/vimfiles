@@ -40,6 +40,9 @@ Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
 " Elm
 Plug 'elmcast/elm-vim', { 'for': ['elm'] }
 
+" Slim
+Plug 'slim-template/vim-slim'
+
 call plug#end()
 
 command! Pupgrade PlugUpgrade | PlugUpdate
