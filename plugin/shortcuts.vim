@@ -34,3 +34,6 @@ map <leader>a :Ack!<Space>
 
 " The built-in mapping for exiting terminal insert mode
 nmap <leader>o <C-\><C-n>
+
+" Jump to last line centralizing
+nmap <leader>b <C-o>zz

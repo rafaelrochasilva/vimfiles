@@ -97,7 +97,7 @@ if !has('nvim')
   set backspace=indent,eol,start
   set display=lastline
   set formatoptions=tcqj
-  set history=10000
+  set history=100000
   set hlsearch
   set incsearch
   set langnoremap

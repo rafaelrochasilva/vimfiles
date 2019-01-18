@@ -43,6 +43,15 @@ Plug 'elmcast/elm-vim', { 'for': ['elm'] }
 " Slim
 Plug 'slim-template/vim-slim'
 
+" Coffeescript
+Plug 'kchmck/vim-coffee-script'
+
+" Lisp
+Plug 'l04m33/vlime', {'rtp': 'vim/'}
+
+" Swift
+Plug 'keith/swift.vim'
+
 call plug#end()
 
 command! Pupgrade PlugUpgrade | PlugUpdate
