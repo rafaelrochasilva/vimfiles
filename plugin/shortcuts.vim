@@ -37,3 +37,6 @@ nmap <leader>o <C-\><C-n>
 
 " Jump to last line centralizing
 nmap <leader>b <C-o>zz
+
+" Git blame
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
