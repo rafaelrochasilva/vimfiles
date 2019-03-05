@@ -128,3 +128,5 @@ endfunction
 let g:test#preserve_screen = 0
 let g:test#custom_transformations = {'elixir_umbrella': function('ElixirUmbrellaTransform')}
 let g:test#transformation = 'elixir_umbrella'
+
+let g:mix_format_on_save = 1

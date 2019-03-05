@@ -3,8 +3,6 @@ call plug#begin(expand('$HOME/.vim/_deps'))
 " Tools
 Plug 'benekastah/neomake'
 Plug 'scrooloose/nerdtree'
-" Plug 'chriskempson/base16-vim'
-" Plug 'chriskempson/base16-iterm2'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim' " Search into files using ack
 Plug 'tpope/vim-commentary' " Comment code
@@ -14,6 +12,8 @@ Plug 'godlygeek/tabular'
 Plug 'airblade/vim-gitgutter' " Git changes
 Plug 'lifepillar/vim-solarized8' " Solarized8 theme
 Plug 'zivyangll/git-blame.vim'
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': 'yarn install'}
 
 " Test
 Plug 'janko-m/vim-test'
@@ -52,6 +52,9 @@ Plug 'l04m33/vlime', {'rtp': 'vim/'}
 
 " Swift
 Plug 'keith/swift.vim'
+
+" Elixir Formater
+Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
 
 call plug#end()
 
