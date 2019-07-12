@@ -29,6 +29,9 @@ nmap <silent> <leader>ta :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
+"Retab
+map <leader>r :set expandtab | retab<CR>
+
 " Ack mappings
 map <leader>a :Ack!<Space>
 
@@ -37,6 +40,12 @@ nmap <leader>o <C-\><C-n>
 
 " Jump to last line centralizing
 nmap <leader>b <C-o>zz
+
+" Night mode
+nnoremap <Leader>1 :colorscheme solarized8_dark<CR>
+
+" Day mode
+nnoremap <Leader>2 :colorscheme solarized8_light<CR>
 
 " Git blame
 nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
@@ -52,8 +61,11 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Close preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
+" Ctrl + c
+vmap <leader>c "+yi
+
 " Remap keys for gotos
-nmap <silent> gd <Plug>(coc-definition)
+" nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)

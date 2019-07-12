@@ -14,6 +14,9 @@ Plug 'lifepillar/vim-solarized8' " Solarized8 theme
 Plug 'zivyangll/git-blame.vim'
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': 'yarn install'}
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'jez/vim-colors-solarized'
 
 " Test
 Plug 'janko-m/vim-test'
@@ -54,7 +57,7 @@ Plug 'l04m33/vlime', {'rtp': 'vim/'}
 Plug 'keith/swift.vim'
 
 " Elixir Formater
-Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
+" Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
 
 call plug#end()
 

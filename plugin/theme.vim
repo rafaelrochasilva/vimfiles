@@ -9,7 +9,7 @@ elseif hr >= 0
   colorscheme solarized8_dark
 endif
 
-set colorcolumn=80
+set colorcolumn=120
 
 hi! VertSplit guibg=NONE
 
