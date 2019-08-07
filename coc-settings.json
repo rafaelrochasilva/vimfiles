@@ -1,7 +1,7 @@
 {
   "languageserver": {
     "elixir": {
-      "command": "/Users/kborges/src/elixir-ls/rel/language_server.sh",
+      "command": "/absolute/path/to/elixir-ls/release/language_server.sh",
       "trace.server": "verbose",
       "filetypes": ["elixir", "eelixir"]
     }

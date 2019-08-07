@@ -12,11 +12,11 @@ Plug 'godlygeek/tabular'
 Plug 'airblade/vim-gitgutter' " Git changes
 Plug 'lifepillar/vim-solarized8' " Solarized8 theme
 Plug 'zivyangll/git-blame.vim'
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': 'yarn install'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'jez/vim-colors-solarized'
+" Plug 'jez/vim-colors-solarized'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 " Test
 Plug 'janko-m/vim-test'
@@ -40,21 +40,26 @@ Plug 'tpope/vim-rails', { 'for': ['ruby'] }
 
 " Elixir
 Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
+Plug 'avdgaag/vim-phoenix', { 'for': ['elixir', 'eelixir'] }
+
+
+" Erlang
+Plug 'vim-erlang/vim-erlang-runtime', { 'for': ['erlang'] }
 
 " Elm
-Plug 'elmcast/elm-vim', { 'for': ['elm'] }
+" Plug 'elmcast/elm-vim', { 'for': ['elm'] }
 
 " Slim
-Plug 'slim-template/vim-slim'
+Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 
 " Coffeescript
-Plug 'kchmck/vim-coffee-script'
+" Plug 'kchmck/vim-coffee-script'
 
 " Lisp
-Plug 'l04m33/vlime', {'rtp': 'vim/'}
+" Plug 'l04m33/vlime', {'rtp': 'vim/'}
 
 " Swift
-Plug 'keith/swift.vim'
+" Plug 'keith/swift.vim'
 
 " Elixir Formater
 " Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
