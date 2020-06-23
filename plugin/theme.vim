@@ -23,3 +23,6 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 "Set ctrl_p to reuse the window
 let g:ctrlp_reuse_window  = 'startify'
+
+" Config colors for limelight
+let g:limelight_conceal_ctermfg = 230

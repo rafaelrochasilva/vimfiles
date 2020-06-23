@@ -18,6 +18,11 @@ Plug 'airblade/vim-gitgutter'
 " Plug 'jez/vim-colors-solarized'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
+" Vim markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'junegunn/limelight.vim'
+
 " Test
 Plug 'janko-m/vim-test'
 Plug 'tpope/vim-dispatch'
