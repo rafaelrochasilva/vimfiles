@@ -10,13 +10,15 @@ Plug 'cohama/lexima.vim' " Auto close parentheses
 Plug 'rizzatti/dash.vim' " Dash
 Plug 'godlygeek/tabular'
 Plug 'airblade/vim-gitgutter' " Git changes
-Plug 'lifepillar/vim-solarized8' " Solarized8 theme
+" Plug 'lifepillar/vim-solarized8' " Solarized8 theme
 Plug 'zivyangll/git-blame.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 Plug 'airblade/vim-gitgutter'
 " Plug 'jez/vim-colors-solarized'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'ayu-theme/ayu-vim' "Theme
 
 " Vim markdown
 Plug 'godlygeek/tabular'
@@ -68,7 +70,7 @@ Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 " Plug 'keith/swift.vim'
 
 " Elixir Formater
-" Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
+Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
 
 call plug#end()
 

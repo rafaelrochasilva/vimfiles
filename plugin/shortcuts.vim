@@ -42,7 +42,7 @@ nmap <leader>o <C-\><C-n>
 nmap <leader>b <C-o>zz
 
 " Night mode
-nnoremap <Leader>1 :colorscheme solarized8_dark<CR>
+nnoremap <Leader>1 :colorscheme ayu<CR>
 
 " Day mode
 nnoremap <Leader>2 :colorscheme solarized8_light<CR>
@@ -52,8 +52,8 @@ nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
 
 " coc.nvim
 "  navigate completion list:
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " to confirm complete
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -66,12 +66,13 @@ vmap <leader>c "+yi
 
 " Remap keys for gotos
 " nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+" nmap <silent> gy <Plug>(coc-type-definition)
+" nmap <silent> gi <Plug>(coc-implementation)
+" nmap <silent> gr <Plug>(coc-references)
 
 " Ignore some folders and files for CtrlP indexing
 let g:ctrlp_custom_ignore = {
   \ 'dir':  'deps\|\.git$\|\.yardoc\|public$|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
+
