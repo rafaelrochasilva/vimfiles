@@ -2,23 +2,39 @@ call plug#begin(expand('$HOME/.vim/_deps'))
 
 " Tools
 Plug 'benekastah/neomake'
-Plug 'scrooloose/nerdtree'
+
+" Serch Files
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'mileszs/ack.vim' " Search into files using ack
-Plug 'tpope/vim-commentary' " Comment code
-Plug 'cohama/lexima.vim' " Auto close parentheses
-Plug 'rizzatti/dash.vim' " Dash
+
+" Nav Bar
+Plug 'scrooloose/nerdtree'
+
+" Fix identation
 Plug 'godlygeek/tabular'
-Plug 'airblade/vim-gitgutter' " Git changes
-" Plug 'lifepillar/vim-solarized8' " Solarized8 theme
-Plug 'zivyangll/git-blame.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Go to Github Browser
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-Plug 'airblade/vim-gitgutter'
-" Plug 'jez/vim-colors-solarized'
-Plug 'sonph/onehalf', {'rtp': 'vim/'}
+
+" Comment code
+Plug 'tpope/vim-commen:tary' 
+"
+" Auto close parentheses
+Plug 'cohama/lexima.vim'
+
+" Dash
+Plug 'rizzatti/dash.vim'
+
+" Search into files using ack
+Plug 'mileszs/ack.vim'
+
+" Git changes
+Plug 'airblade/vim-gitgutter' 
+Plug 'zivyangll/git-blame.vim'
+
+" Themes
 Plug 'ayu-theme/ayu-vim' "Theme
+Plug 'sonph/onehalf', {'rtp': 'vim/'} "Color scheme
 
 " Vim markdown
 Plug 'godlygeek/tabular'
@@ -29,7 +45,7 @@ Plug 'junegunn/limelight.vim'
 Plug 'janko-m/vim-test'
 Plug 'tpope/vim-dispatch'
 
-" Tomdoc
+" Tomdoc - make comments doc  prettier
 Plug 'wellbredgrapefruit/tomdoc.vim'
 
 " Markdown
@@ -48,20 +64,21 @@ Plug 'tpope/vim-rails', { 'for': ['ruby'] }
 " Elixir
 Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
 Plug 'avdgaag/vim-phoenix', { 'for': ['elixir', 'eelixir'] }
+Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
 
 " Erlang
-Plug 'vim-erlang/vim-erlang-runtime', { 'for': ['erlang'] }
-Plug 'vim-erlang/vim-erlang-omnicomplete', { 'for': ['erlang'] }
-Plug 'vim-erlang/vim-erlang-compiler', { 'for': ['erlang'] }
+" Plug 'vim-erlang/vim-erlang-runtime', { 'for': ['erlang'] }
+" Plug 'vim-erlang/vim-erlang-omnicomplete', { 'for': ['erlang'] }
+" Plug 'vim-erlang/vim-erlang-compiler', { 'for': ['erlang'] }
 
 " Elm
 " Plug 'elmcast/elm-vim', { 'for': ['elm'] }
 
 " Slim
-Plug 'slim-template/vim-slim', { 'for': ['slim'] }
+" Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 
 " Coffeescript
-" Plug 'kchmck/vim-coffee-script'
+Plug 'kchmck/vim-coffee-script'
 
 " Lisp
 " Plug 'l04m33/vlime', {'rtp': 'vim/'}
@@ -69,8 +86,8 @@ Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 " Swift
 " Plug 'keith/swift.vim'
 
-" Elixir Formater
-Plug 'mhinz/vim-mix-format', { 'for': ['elixir'] }
+" SQL formater
+Plug 'SQLUtilities', { 'for': ['sql'] }
 
 call plug#end()
 

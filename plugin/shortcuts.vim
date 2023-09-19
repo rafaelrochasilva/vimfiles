@@ -30,7 +30,7 @@ nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
 "Retab
-map <leader>r :set expandtab | retab<CR>
+" map <leader>r :set expandtab | retab<CR>
 
 " Ack mappings
 map <leader>a :Ack!<Space>
